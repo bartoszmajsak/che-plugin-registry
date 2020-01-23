@@ -17,7 +17,7 @@ spec:
       memoryLimit: "4G"
       env:
         - name: MAVEN_OPTS
-          value: -Xmx2048m -Duser.home=/home/theia
+          value: "-Xmx2048m -Duser.home=/home/theia"
         - name: MAVEN_MIRROR_URL
           value: http://nexus.opentlc-shared.svc:8081/repository/maven-all-public
   extensions:
